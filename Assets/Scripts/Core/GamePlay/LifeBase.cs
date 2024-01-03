@@ -1,22 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor.Build;
 using UnityEngine;
 
-public abstract class LifeBase : MonoBehaviour
+public abstract class LifeBase : CardBase
 {
 
     public int totalLife;
     private int currentLife;
 
+    public TextMeshPro textLife;
+
     protected void Start()
     {
+        base.Start();
         currentLife = totalLife;
-    }
+        textLife.text = currentLife.ToString();
+}
 
     protected void Update()
     {
-        
+        base.Update();
     }
 
     public void ApplyDamage(int damage)

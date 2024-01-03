@@ -1,17 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class CardBase : MonoBehaviour
+public abstract class CardBase : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string cardTitle;
+    public string cardName;
+    public string cardLore;
+
+    public TextMeshPro textCardTitle;
+    public TextMeshPro textCardName;
+    public TextMeshPro textCardLore;
+
+
+    protected void Start()
     {
         
+        textCardTitle.text = cardTitle;
+        textCardName.text = cardName;
+        textCardLore.text = cardLore;
+
     }
 
-    // Update is called once per frame
-    void Update()
+
+    protected void Update()
     {
         
     }
