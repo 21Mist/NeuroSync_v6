@@ -32,6 +32,12 @@ public abstract class LifeBase : CardBase
             OnDie();
     }
 
+    public int GetCurrentLife()
+    {
+        return currentLife;
+    }
+
+
     public abstract void OnDamage();
     public abstract void OnDie();
 
