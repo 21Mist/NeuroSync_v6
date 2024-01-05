@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4303259388080149826
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2356546641509935375, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: cardLore
+      value: maleta de baterias reservas.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2356546641509935375, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: consumableEffect
+      value: "Pegue at\xE9 3 baterias do descarte e embaralhe no deck."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2656689542212337964, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_Name
+      value: CardConsumable_Reserva de Bateria
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.436
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.923
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}

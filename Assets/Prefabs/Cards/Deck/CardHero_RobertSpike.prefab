@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1027598850418917612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.969317
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.9919373
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.9106336
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7633206545556157116, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Name
+      value: CardHero_RobertSpike
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7633206545556157116, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6741544957242097870}
+  m_SourcePrefab: {fileID: 100100000, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+--- !u!114 &270381899127297410 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 973434281650836846, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &713065877482490242 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 551570106759121262, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2229079623321003613 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1201770258085308081, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2415921036078044733 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3442387099582633681, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2543212801612705599 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3245280193573040083, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3078930289557782050 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2663964378178125518, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3477922830280009516 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4469492600144816064, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3480417179854898530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4471563474525930894, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5060524520701208499 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5222024410350577503, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6059922987371711717 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6511053238564949001, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6232122634336854296 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6358573812740530676, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7470446336486044240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7633206545556157116, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6741544957242097870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470446336486044240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8c4d29e4cea774a9833e4483519dab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardTitle: Navegador
+  cardName: Robert Spike
+  cardLore: "Robert Fairling \xE9 um antigo integrante do setor de Contra-intelig\xEAncia
+    da mega coorpora\xE7\xE3o \"Horizon Nexus\", seu codnome na rede \xE9 Spike."
+  textCardTitle: {fileID: 5060524520701208499}
+  textCardName: {fileID: 2543212801612705599}
+  textCardLore: {fileID: 270381899127297410}
+  totalLife: 33
+  textLife: {fileID: 3480417179854898530}
+  heroSkill: ' Ao atacar com Hacks, a troca de baterias se torna opcional.'
+  heroImplantSlots1: N
+  heroImplantSlots2: N
+  heroImplantSlots3: N
+  heroImplantSlots4: C
+  heroBatterySlotsP: 2
+  heroBatterySlotsM: 3
+  heroBatterySlotsG: 2
+  textHeroSkill: {fileID: 2415921036078044733}
+  textHeroImplantSlots1: {fileID: 3078930289557782050}
+  textHeroImplantSlots2: {fileID: 2229079623321003613}
+  textHeroImplantSlots3: {fileID: 3477922830280009516}
+  textHeroImplantSlots4: {fileID: 6059922987371711717}
+  textHeroBatterySlotsP: {fileID: 713065877482490242}
+  textHeroBatterySlotsM: {fileID: 6232122634336854296}
+  textHeroBatterySlotsG: {fileID: 7693754638725376298}
+  deck: {fileID: 0}
+  hand: {fileID: 0}
+--- !u!114 &7693754638725376298 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7243888961203775942, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+  m_PrefabInstance: {fileID: 1027598850418917612}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

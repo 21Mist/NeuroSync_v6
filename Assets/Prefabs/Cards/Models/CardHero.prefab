@@ -1831,7 +1831,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2710332372210521240}
-  - component: {fileID: 2408715767281334009}
   m_Layer: 0
   m_Name: CardHero
   m_TagString: Untagged
@@ -1856,43 +1855,6 @@ Transform:
   - {fileID: 5160736178356375048}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2408715767281334009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7633206545556157116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e8d47ccf9b4f374684dfe84ccbc6bf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardTitle: Navegador
-  cardName: Robert Spike
-  cardLore: "Robert Fairling \xE9 um antigo integrante do setor de Contra-intelig\xEAncia
-    da mega coorpora\xE7\xE3o \"Horizon Nexus\", seu codnome na rede \xE9 Spike."
-  textCardTitle: {fileID: 5222024410350577503}
-  textCardName: {fileID: 3245280193573040083}
-  textCardLore: {fileID: 973434281650836846}
-  totalLife: 33
-  textLife: {fileID: 4471563474525930894}
-  heroSkill: Ao atacar com Hacks, a troca de baterias se torna opcional.
-  heroImplantSlots1: N
-  heroImplantSlots2: N
-  heroImplantSlots3: N
-  heroImplantSlots4: C
-  heroBatterySlotsP: 2
-  heroBatterySlotsM: 3
-  heroBatterySlotsG: 2
-  textHeroSkill: {fileID: 3442387099582633681}
-  textHeroImplantSlots1: {fileID: 2663964378178125518}
-  textHeroImplantSlots2: {fileID: 1201770258085308081}
-  textHeroImplantSlots3: {fileID: 4469492600144816064}
-  textHeroImplantSlots4: {fileID: 6511053238564949001}
-  textHeroBatterySlotsP: {fileID: 551570106759121262}
-  textHeroBatterySlotsM: {fileID: 6358573812740530676}
-  textHeroBatterySlotsG: {fileID: 7243888961203775942}
 --- !u!1 &8254238234482676014
 GameObject:
   m_ObjectHideFlags: 0

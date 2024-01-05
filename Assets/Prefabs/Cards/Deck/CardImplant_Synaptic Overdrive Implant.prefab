@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8434963060885516023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.788
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.436
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.913
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934080568670601231, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7742001280943168181, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_Name
+      value: CardImplant_Synaptic Overdrive Implant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8239331202787008518, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: cardLore
+      value: "Implante para aumento de capacidade de processamento e overclock, aumentando
+        a for\xE7a e precis\xE3o dos ataques."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8239331202787008518, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: implantTier1
+      value: "Gasta uma bateria P para causar 8 a mais de dano no seu pr\xF3ximo
+        ataque."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8239331202787008518, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: implantTier2
+      value: 'Tier 2: (Passiva) Seus Hacks causam 3 a mais de dano.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8239331202787008518, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: implantTier3
+      value: "Tier 3: Gasta uma bateria M para realizar um ataque extra com o her\xF3i
+        no turno."
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}

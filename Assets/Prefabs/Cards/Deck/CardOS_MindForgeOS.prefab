@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2337810633958030160
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.355
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.4279373
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.25563335
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1386297283499081538, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1762823509186012664, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_Name
+      value: CardOS_MindForgeOS
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586128174534919387, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: cardLore
+      value: Sistema Operacional de Combate feito para combatentes de guerra da TT
+        System
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586128174534919387, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: cardName
+      value: MindForge OS
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586128174534919387, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: oSEffect
+      value: "Voc\xEA pode gastar um consum\xEDvel a sua escolha, para resgatar uma
+        bateria do descarte"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
