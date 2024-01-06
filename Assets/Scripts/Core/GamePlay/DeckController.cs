@@ -47,7 +47,10 @@ public class DeckController : MonoBehaviour
             
             if (Vector3.Distance(tempCard.transform.position, positionHand) < 50)
             {
-                tempCard.GetComponent<CardBase>().SetOnHand();
+                CardBase tempCardComponent = tempCard.GetComponent<CardBase>();
+                tempCardComponent.SetOnHand();
+                tempCardComponent.SetStartPosition(positionHand);
+                tempCard = null;
             }
         }
     }

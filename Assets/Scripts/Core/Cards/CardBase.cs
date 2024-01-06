@@ -86,7 +86,11 @@ public abstract class CardBase : MonoBehaviour
     public void SetOnHand()
     {
         onHand = true;
-        startPosition = transform.position;
+    }
+
+    public void SetStartPosition(Vector3 position)
+    {
+        startPosition = position;
         positionToGo = startPosition; 
     }
 

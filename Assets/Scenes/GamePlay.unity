@@ -2350,78 +2350,6 @@ Transform:
   - {fileID: 231386982}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1963143292
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6020406049936592528, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6397107957165003818, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      propertyPath: m_Name
-      value: CardTurret_BattleEagle X1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3863075784722274715, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 7554200233821273379, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 2154782191775746445, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 7878859840823704189, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 4510274527393586768, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
-  m_SourcePrefab: {fileID: 100100000, guid: b13e16aa556b458429e345a47aa23ab7, type: 3}
 --- !u!1 &2078911745
 GameObject:
   m_ObjectHideFlags: 0
@@ -2535,7 +2463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positionToShowPlayer: {fileID: 871650749}
-  rangeCardPosition: {x: 3, y: 0.1, z: 0}
+  rangeCardPosition: {x: 4, y: 0.3, z: 0}
   maxCardInHand: 7
 --- !u!4 &2091110550
 Transform:
@@ -2565,4 +2493,3 @@ SceneRoots:
   - {fileID: 653729618}
   - {fileID: 1295335095}
   - {fileID: 1898108411}
-  - {fileID: 1963143292}

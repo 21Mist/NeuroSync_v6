@@ -44,7 +44,7 @@ public class HandPlayerBehaviour : MonoBehaviour
             position = CalcDistanceHandPosition(i, cards.Count+1);
             if (i - 1 < cards.Count)
             {
-                cards[i-1].transform.position = position;
+                cards[i-1].SetStartPosition(position);
             }
         }
 
@@ -54,7 +54,7 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     private Vector3 CalcDistanceHandPosition(int indice, int limit)
     {
-        float distance = indice/(float) (limit);
+        float distance = indice/(float)limit;
 
 
 
