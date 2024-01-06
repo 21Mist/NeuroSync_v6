@@ -24,62 +24,70 @@ public abstract class CardBase : MonoBehaviour
 
     protected void Start()
     {
-        
+
         textCardTitle.text = cardTitle;
         textCardName.text = cardName;
         textCardLore.text = cardLore;
 
         mainCamera = Camera.main;
 
-        startPosition = transform.position;
-        positionToGo = startPosition;
-
     }
 
 
     protected void Update()
     {
-        if (transform.position != positionToGo)
+        if (transform.position != positionToGo && onHand)
         {
-            transform.position = Vector3.Lerp(transform.position, positionToGo, Time.deltaTime*dumbDragMovimentation);
+            transform.position = Vector3.Lerp(transform.position, positionToGo, Time.deltaTime * dumbDragMovimentation);
         }
     }
 
     public void OnClick()
     {
-        
+
     }
 
     public void OnMouseOver()
     {
-        
+
     }
 
     public void OnMouseExit()
     {
-        
+
     }
 
     public void OnDrag()
     {
+        if (onHand)
+        {
             positionToGo = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             positionToGo.y = startPosition.y;
+        }
     }
 
     public void OnDrop()
     {
+        if (onHand)
+        {
             positionToGo = startPosition;
             ToggleLayer();
+        }
     }
-    
+
     public void OnStartDrag()
     {
+        if (onHand)
+        {
             ToggleLayer();
+        }
     }
 
     public void SetOnHand()
     {
-        
+        onHand = true;
+        startPosition = transform.position;
+        positionToGo = startPosition; 
     }
 
 

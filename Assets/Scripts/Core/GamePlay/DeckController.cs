@@ -42,8 +42,14 @@ public class DeckController : MonoBehaviour
                 positionHand = player.hand.positionNextCard;
                 targetPosition = positionHand;
             }
+            
             tempCard.transform.position = Vector3.Lerp(tempCard.transform.position, targetPosition, dumbGetCard * Time.deltaTime);
+            
+            if (Vector3.Distance(tempCard.transform.position, positionHand) < 50)
+            {
+                tempCard.GetComponent<CardBase>().SetOnHand();
             }
+        }
     }
 
     public void GetCard()
