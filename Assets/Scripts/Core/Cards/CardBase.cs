@@ -39,7 +39,7 @@ public abstract class CardBase : MonoBehaviour
 
     protected void Update()
     {
-        if (transform.position != positionToGo && onHand)
+        if (transform.position != positionToGo)
         {
             transform.position = Vector3.Lerp(transform.position, positionToGo, Time.deltaTime*dumbDragMovimentation);
         }
@@ -62,28 +62,19 @@ public abstract class CardBase : MonoBehaviour
 
     public void OnDrag()
     {
-        if(onHand)
-        {
             positionToGo = mainCamera.ScreenToWorldPoint(Input.mousePosition);
             positionToGo.y = startPosition.y;
-        }
     }
 
     public void OnDrop()
     {
-        if (onHand)
-        {
             positionToGo = startPosition;
             ToggleLayer();
-        }
     }
     
     public void OnStartDrag()
     {
-        if (onHand)
-        {
             ToggleLayer();
-        }
     }
 
     public void SetOnHand()

@@ -91,7 +91,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2356546641509935375}
         m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -120,7 +120,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 2356546641509935375}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseOver
           m_Mode: 1
@@ -136,7 +136,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 2356546641509935375}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseExit
           m_Mode: 1
@@ -152,7 +152,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 2356546641509935375}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrag
           m_Mode: 1
@@ -168,7 +168,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 2356546641509935375}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrop
           m_Mode: 1
@@ -184,7 +184,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 2356546641509935375}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnStartDrag
           m_Mode: 1
@@ -1203,7 +1203,7 @@ MonoBehaviour:
   textCardTitle: {fileID: 5540511584141278725}
   textCardName: {fileID: 1976513641790739912}
   textCardLore: {fileID: 2803066190327870791}
-  dumbDragMovimentation: 0
+  dumbDragMovimentation: 10
   consumableEffect: "Gera uma bateria gen\xE9rica que dura um turno."
   textConsumableEffect: {fileID: 8508902538305899588}
 --- !u!4 &3428828920344976278 stripped

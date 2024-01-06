@@ -364,7 +364,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3448082387258439986}
         m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -393,7 +393,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 3448082387258439986}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseOver
           m_Mode: 1
@@ -409,7 +409,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 3448082387258439986}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseExit
           m_Mode: 1
@@ -425,7 +425,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 3448082387258439986}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrag
           m_Mode: 1
@@ -441,7 +441,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 3448082387258439986}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrop
           m_Mode: 1
@@ -457,7 +457,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 3448082387258439986}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnStartDrag
           m_Mode: 1
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   textCardTitle: {fileID: 3547666781593645569}
   textCardName: {fileID: 1329444020686844020}
   textCardLore: {fileID: 982323043995997689}
-  dumbDragMovimentation: 0
+  dumbDragMovimentation: 10
   weaponEffect: "Skill 1 (Saque r\xE1pido) Pode sacar e atacar no mesmo turno | Skill
     2 (Guardar) Pode ser embaralhada no deck a qualquer momento, caso n\xE3o tenha
     atacado no turno atual.  | Skill 3 (~Bateria infinita~) N\xE3o gasta recurso

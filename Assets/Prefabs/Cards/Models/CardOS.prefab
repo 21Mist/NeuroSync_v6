@@ -751,7 +751,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6586128174534919387}
         m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -780,7 +780,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 6586128174534919387}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseOver
           m_Mode: 1
@@ -796,7 +796,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 6586128174534919387}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseExit
           m_Mode: 1
@@ -812,7 +812,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 6586128174534919387}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrag
           m_Mode: 1
@@ -828,7 +828,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 6586128174534919387}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrop
           m_Mode: 1
@@ -844,7 +844,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 6586128174534919387}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnStartDrag
           m_Mode: 1
@@ -1209,7 +1209,7 @@ MonoBehaviour:
   textCardTitle: {fileID: 1734422725434843552}
   textCardName: {fileID: 3411823844163662482}
   textCardLore: {fileID: 2007879743652686654}
-  dumbDragMovimentation: 0
+  dumbDragMovimentation: 10
   oSEffect: "Voc\xEA pode remover uma bateria e embaralhar ela no deck para realizar
     um ataque extra com o her\xF3i no seu turno"
   textOSEffect: {fileID: 6794584280433537341}

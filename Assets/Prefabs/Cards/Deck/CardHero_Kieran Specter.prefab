@@ -12,6 +12,66 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: bb3c1ec7d51e32c478423fb9fb466948, type: 2}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1680485589901598521}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1680485589901598521}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1680485589901598521}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[3].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1680485589901598521}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1680485589901598521}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[3].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMouseOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnMouseExit
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[2].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnDrag
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[3].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnDrop
+      objectReference: {fileID: 0}
+    - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_Delegates.Array.data[4].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnStartDrag
+      objectReference: {fileID: 0}
     - target: {fileID: 2408715767281334009, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: cardLore
       value: "Kieran \xE9 um ex militar que foi demitido junto de sua equipe e para
@@ -92,6 +152,18 @@ PrefabInstance:
     - target: {fileID: 7633206545556157116, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: m_Name
       value: CardHero_Kieran Specter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184889217901770990, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1680485589901598521}
+    - target: {fileID: 8184889217901770990, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184889217901770990, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnClick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -214,7 +286,7 @@ MonoBehaviour:
   textCardTitle: {fileID: 7248566563897927885}
   textCardName: {fileID: 137854905187409985}
   textCardLore: {fileID: 2405513980287769340}
-  dumbDragMovimentation: 0
+  dumbDragMovimentation: 10
   totalLife: 39
   textLife: {fileID: 1364133444490054172}
   heroSkill: "Caso ainda n\xE3o tenha atacado no seu turno, voc\xEA pode remover

@@ -399,7 +399,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1894306792802034851}
         m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
@@ -428,7 +428,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1894306792802034851}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseOver
           m_Mode: 1
@@ -444,7 +444,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1894306792802034851}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnMouseExit
           m_Mode: 1
@@ -460,7 +460,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1894306792802034851}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrag
           m_Mode: 1
@@ -476,7 +476,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1894306792802034851}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnDrop
           m_Mode: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 1894306792802034851}
           m_TargetAssemblyTypeName: CardBase, Assembly-CSharp
           m_MethodName: OnStartDrag
           m_Mode: 1
@@ -1200,7 +1200,7 @@ MonoBehaviour:
   textCardTitle: {fileID: 5083393682131371644}
   textCardName: {fileID: 3037347313924197369}
   textCardLore: {fileID: 1063404213834007439}
-  dumbDragMovimentation: 0
+  dumbDragMovimentation: 10
   hackEffect: "Skill 1 (G > M): Trava a torre do advers\xE1rio, causando 5 de dano
     na torre.  Skill 2 (P > G): Causa 5 de dano no alvo.  Skill 3 (M > P): Hackeia
     um implante advers\xE1rio, para reduzir o n\xEDvel dele em 1 no pr\xF3ximo turno.
