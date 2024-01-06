@@ -39,12 +39,11 @@ public class DeckController : MonoBehaviour
             currentTimeToShowPlayer += Time.deltaTime;
             if (currentTimeToShowPlayer > timeToShowPlayer )
             {
+                positionHand = player.hand.positionNextCard;
                 targetPosition = positionHand;
             }
-
             tempCard.transform.position = Vector3.Lerp(tempCard.transform.position, targetPosition, dumbGetCard * Time.deltaTime);
-
-        }
+            }
     }
 
     public void GetCard()
@@ -61,6 +60,8 @@ public class DeckController : MonoBehaviour
             moveToHand = true;
             targetPosition = positionShowPlayer;
             currentTimeToShowPlayer = 0;
+
+            player.hand.AddCards(tempCard.GetComponent<CardBase>());
         }
     }
 

@@ -1929,6 +1929,7 @@ MonoBehaviour:
   textCardTitle: {fileID: 633436049}
   textCardName: {fileID: 633436048}
   textCardLore: {fileID: 633436047}
+  dumbDragMovimentation: 0
   totalLife: 33
   textLife: {fileID: 633436057}
   heroSkill: ' Ao atacar com Hacks, a troca de baterias se torna opcional.'
@@ -3009,6 +3010,7 @@ MonoBehaviour:
   textCardTitle: {fileID: 1958037319}
   textCardName: {fileID: 1958037318}
   textCardLore: {fileID: 1958037317}
+  dumbDragMovimentation: 0
   totalLife: 39
   textLife: {fileID: 1958037327}
   heroSkill: "Caso ainda n\xE3o tenha atacado no seu turno, voc\xEA pode remover
