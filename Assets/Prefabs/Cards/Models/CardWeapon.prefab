@@ -1259,19 +1259,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9961947
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.08715578
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1279,7 +1279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1377,6 +1377,7 @@ MonoBehaviour:
   textCardName: {fileID: 1329444020686844020}
   textCardLore: {fileID: 982323043995997689}
   dumbDragMovimentation: 10
+  offsetZoomPosition: {x: 0, y: 0, z: 0}
   weaponEffect: "Skill 1 (Saque r\xE1pido) Pode sacar e atacar no mesmo turno | Skill
     2 (Guardar) Pode ser embaralhada no deck a qualquer momento, caso n\xE3o tenha
     atacado no turno atual.  | Skill 3 (~Bateria infinita~) N\xE3o gasta recurso

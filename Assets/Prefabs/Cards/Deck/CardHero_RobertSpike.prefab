@@ -8,6 +8,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 495653846438239625, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.591
+      objectReference: {fileID: 0}
+    - target: {fileID: 495653846438239625, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.694
+      objectReference: {fileID: 0}
+    - target: {fileID: 495653846438239625, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.046
+      objectReference: {fileID: 0}
     - target: {fileID: 942149279404041902, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -50,11 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.969317
+      value: -13.55
       objectReference: {fileID: 0}
     - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9919373
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 2710332372210521240, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -254,6 +266,7 @@ MonoBehaviour:
   textCardName: {fileID: 3892059405386795049}
   textCardLore: {fileID: 1623696230359511700}
   dumbDragMovimentation: 0
+  offsetZoomPosition: {x: 0, y: 0, z: 0}
   totalLife: 33
   textLife: {fileID: 2667535080884183668}
   heroSkill: ' Ao atacar com Hacks, a troca de baterias se torna opcional.'

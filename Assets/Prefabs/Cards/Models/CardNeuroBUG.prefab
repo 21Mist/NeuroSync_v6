@@ -1605,19 +1605,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9961947
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.08715578
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1625,7 +1625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1718,6 +1718,7 @@ MonoBehaviour:
   textCardName: {fileID: 8361283826869523876}
   textCardLore: {fileID: 4103609806137915100}
   dumbDragMovimentation: 10
+  offsetZoomPosition: {x: 0, y: 0, z: 0}
   neuroBugEffect: O Alvo pode jogar uma bateria adicional por turno.
   neuroBugTier1: O alvo perde 2 pontos de vida por turno.
   neuroBugTier2: O alvo perde 3 pontos de vida por turno e causa 2 menos dano por

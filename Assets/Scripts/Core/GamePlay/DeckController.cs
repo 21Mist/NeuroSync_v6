@@ -21,6 +21,8 @@ public class DeckController : MonoBehaviour
     private Vector3 targetPosition;
     public float dumbGetCard;
 
+    private bool canPlayerControl;
+
 
 
     void Start()
@@ -30,6 +32,8 @@ public class DeckController : MonoBehaviour
 
         positionHand = player.hand.transform.position;
         positionShowPlayer = player.hand.positionToShowPlayer.position;
+        canPlayerControl = player.canPlayerControl;
+
     }
 
     void Update()
@@ -70,7 +74,7 @@ public class DeckController : MonoBehaviour
             targetPosition = positionShowPlayer;
             currentTimeToShowPlayer = 0;
 
-            player.hand.AddCards(tempCard.GetComponent<CardBase>());
+            player.hand.AddCards(tempCard.GetComponent<CardBase>(), canPlayerControl);
         }
     }
 

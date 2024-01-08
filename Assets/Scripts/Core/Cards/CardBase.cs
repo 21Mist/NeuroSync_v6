@@ -21,6 +21,12 @@ public abstract class CardBase : MonoBehaviour
     private Vector3 positionToGo;
 
     private bool onHand;
+    private Vector3 zoomPosition;
+    public Vector3 offsetZoomPosition;
+
+    public bool canPlayerControl;
+    private bool isFaceShowing = true;
+    
 
     protected void Start()
     {
@@ -49,12 +55,15 @@ public abstract class CardBase : MonoBehaviour
 
     public void OnMouseOver()
     {
+        if (onHand)
+            positionToGo = zoomPosition;
 
     }
 
     public void OnMouseExit()
     {
-
+        if (!onHand)
+            positionToGo = startPosition;
     }
 
     public void OnDrag()
@@ -83,15 +92,46 @@ public abstract class CardBase : MonoBehaviour
         }
     }
 
+    public void FlipCard()
+    {
+        isFaceShowing = !isFaceShowing;
+        Vector3 newRotation = transform.eulerAngles;
+
+        if (isFaceShowing)
+        {
+            
+            newRotation.z = 0;
+        }
+        else
+        {
+            newRotation.z = 180;
+        }
+
+        transform.eulerAngles = newRotation;
+
+
+    }
+
+
     public void SetOnHand()
     {
         onHand = true;
     }
 
+    public void SetOwner(bool canPlayerControl)
+    {
+        this.canPlayerControl = canPlayerControl;
+
+        if (!canPlayerControl)
+            FlipCard();
+    }
+
     public void SetStartPosition(Vector3 position)
     {
         startPosition = position;
-        positionToGo = startPosition; 
+        positionToGo = startPosition;
+
+        zoomPosition = startPosition + offsetZoomPosition;
     }
 
 

@@ -8,6 +8,8 @@ public class PlayerController : HeroCard
     public DeckController deck;
     public HandPlayerBehaviour hand;
 
+    public bool canPlayerControl;
+
     void Start()
     {
         base.Start();

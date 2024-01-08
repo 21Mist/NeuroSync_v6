@@ -62,8 +62,10 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     }
 
-    public void AddCards(CardBase card)
+    public void AddCards(CardBase card, bool canPlayerControl)
     {
+        card.SetOwner(canPlayerControl);
+            
             cards.Add(card);
             ReorganizeCards();
     }

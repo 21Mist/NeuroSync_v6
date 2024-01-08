@@ -1091,19 +1091,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9961947
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.08715578
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1111,7 +1111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1205,6 +1205,7 @@ MonoBehaviour:
   textCardName: {fileID: 6005607558600597751}
   textCardLore: {fileID: 6351739077908137831}
   dumbDragMovimentation: 10
+  offsetZoomPosition: {x: 0, y: 0, z: 0}
   consumableEffect: "Remove completamente a psicose mais grave.  Ap\xF3s removida,
     a psicose deve ser embaralhada no deck."
   textConsumableEffect: {fileID: 4260168385148430746}

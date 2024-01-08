@@ -1087,19 +1087,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9961947
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.08715578
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1107,7 +1107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1201,6 +1201,7 @@ MonoBehaviour:
   textCardName: {fileID: 3037347313924197369}
   textCardLore: {fileID: 1063404213834007439}
   dumbDragMovimentation: 10
+  offsetZoomPosition: {x: 0, y: 0, z: 0}
   hackEffect: "Skill 1 (G > M): Trava a torre do advers\xE1rio, causando 5 de dano
     na torre.  Skill 2 (P > G): Causa 5 de dano no alvo.  Skill 3 (M > P): Hackeia
     um implante advers\xE1rio, para reduzir o n\xEDvel dele em 1 no pr\xF3ximo turno.
