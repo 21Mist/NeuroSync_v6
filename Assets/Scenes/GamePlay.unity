@@ -183,6 +183,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 4.378
       objectReference: {fileID: 0}
+    - target: {fileID: 4552240026880839467, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+      propertyPath: deck
+      value: 
+      objectReference: {fileID: 811798578}
+    - target: {fileID: 4552240026880839467, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+      propertyPath: hand
+      value: 
+      objectReference: {fileID: 2091110549}
+    - target: {fileID: 4552240026880839467, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+      propertyPath: dumbDragMovimentation
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023403300080183439, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023403300080183439, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5023403300080183439, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.38
+      objectReference: {fileID: 0}
     - target: {fileID: 5103170919151197733, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       propertyPath: deck
       value: 
@@ -235,46 +259,46 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3201182484371861527, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6290841001326013434, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1638362014747999583, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7898695405651371698, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1676644619194372765, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7810877178118572400, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8879036167316021883, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7248345200834966, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 301477856195673759, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 9155392043736917362, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1927107034391319814, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 7034369378248101611, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 6128479850847630727, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 3327553166135357034, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8016146072277905566, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 1449735135025195891, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 8032994146472583891, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 1466908561985141054, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 9203848626404584703, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 332087159007737618, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 1981314567666394112, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 6944101024711835629, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
-    - targetCorrespondingSourceObject: {fileID: 3910504016955779596, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 5577016144024515041, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
 --- !u!4 &231386982 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4510313943513559906, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5023403300080183439, guid: b2223349c9d8eac409e1d4f2c3e89e89, type: 3}
   m_PrefabInstance: {fileID: 231386981}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &241831035
@@ -943,7 +967,7 @@ MonoBehaviour:
   - {fileID: 2591952222624763076, guid: bcd8a617e7de81f498582f7f72d86908, type: 3}
   - {fileID: 6514098099136446457, guid: 7319a5b48a457284bb85eea893320860, type: 3}
   - {fileID: 3159639624457692621, guid: 9b89c919714cd7048b456b42bde3deb8, type: 3}
-  timeToShowPlayer: 2
+  timeToShowPlayer: 3
   dumbGetCard: 5
 --- !u!1 &824853332
 GameObject:
@@ -1869,7 +1893,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 3
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
@@ -2463,8 +2487,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   positionToShowPlayer: {fileID: 871650749}
-  rangeCardPosition: {x: 4, y: 0.3, z: 0}
-  maxCardInHand: 7
+  rangeCardPosition: {x: 3, y: 0.2, z: 0}
+  maxCardInHand: 10
 --- !u!4 &2091110550
 Transform:
   m_ObjectHideFlags: 0

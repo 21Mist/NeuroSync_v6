@@ -42,7 +42,7 @@ public class DeckController : MonoBehaviour
                 positionHand = player.hand.positionNextCard;
                 targetPosition = positionHand;
             }
-            
+
             tempCard.transform.position = Vector3.Lerp(tempCard.transform.position, targetPosition, dumbGetCard * Time.deltaTime);
             
             if (Vector3.Distance(tempCard.transform.position, positionHand) < 50)
@@ -57,6 +57,7 @@ public class DeckController : MonoBehaviour
 
     public void GetCard()
     {
+
         if (initListCards.Count > 0)
         { 
             int randCardIndex = Random.Range(0, initListCards.Count);

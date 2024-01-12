@@ -1202,6 +1202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88a7ed57a4f3e2b4797bdaec98e560c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardType: OS
   cardTitle: Sistema
   cardName: NeuroNex OS
   cardLore: "Sistema Operacional de Navega\xE7\xE3o utilizado nos setores de intelig\xEAncia

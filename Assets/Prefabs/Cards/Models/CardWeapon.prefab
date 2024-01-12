@@ -1370,6 +1370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb634ee090ee39f41b3adafaa2b63aa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardType: WeaponHack
   cardTitle: Arma
   cardName: Pistola LaserViper
   cardLore: "Pistola de saque r\xE1pido e pr\xE1tico."

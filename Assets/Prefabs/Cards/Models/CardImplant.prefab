@@ -1710,6 +1710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53343d3a0f0702e49b5e0c4c57f0fd67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardType: Implant
   cardTitle: Implante Neural
   cardName: Quantum Memory Implant
   cardLore: "Implante para aumento da capacidade de mem\xF3ria RAM."

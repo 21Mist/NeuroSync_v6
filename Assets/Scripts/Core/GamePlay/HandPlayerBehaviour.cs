@@ -12,12 +12,13 @@ public class HandPlayerBehaviour : MonoBehaviour
     private Vector3 minPosition;
     private Vector3 maxPosition;
 
-    public int maxCardInHand = 7;
+    public int maxCardInHand = 10;
     
     private List<CardBase> cards = new List<CardBase>();
 
     [System.NonSerialized]
     public Vector3 positionNextCard;
+
     void Start()
     {
         minPosition = transform.position - rangeCardPosition;
@@ -47,16 +48,13 @@ public class HandPlayerBehaviour : MonoBehaviour
                 cards[i-1].SetStartPosition(position);
             }
         }
-
         positionNextCard = CalcDistanceHandPosition(cards.Count, cards.Count+1);
 
     }
 
-    private Vector3 CalcDistanceHandPosition(int indice, int limit)
+    private Vector3 CalcDistanceHandPosition(int indice, float limit)
     {
-        float distance = indice/(float)limit;
-
-
+        float distance = indice/limit;
 
         return Vector3.Lerp(minPosition, maxPosition, distance);
 
@@ -64,8 +62,15 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     public void AddCards(CardBase card)
     {
+        if(cards.Count < maxCardInHand)
+        {
             cards.Add(card);
             ReorganizeCards();
+        }
+        else
+        {
+            Destroy(card.gameObject, 1);
+        }
     }
 
 

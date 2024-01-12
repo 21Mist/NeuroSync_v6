@@ -1025,6 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d8c6c10ba3ba4a4380ab3f3b36cd558, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardType: Battery
   cardTitle: Bateria
   cardName: Bateria P
   cardLore: "Hist\xF3ria da Basteria - teste aqui de lore, hist\xF3ria escrita bla

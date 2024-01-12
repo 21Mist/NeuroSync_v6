@@ -1197,6 +1197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d32c78f81b06bf4eb07ceceb3f15f67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardType: Supressor
   cardTitle: Supressor
   cardName: Super Supressor
   cardLore: Supressores superiores, utlizados apenas em guerras por oficiais de elite

@@ -1711,6 +1711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8553b44e23b69848851a9e4cc495df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cardType: Bug
   cardTitle: NeuroBUG
   cardName: Curto no sistema Neural
   cardLore: Lore aqui blabla blablabla bla blabla
