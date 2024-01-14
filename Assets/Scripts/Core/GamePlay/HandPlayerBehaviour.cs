@@ -5,6 +5,8 @@ using UnityEngine;
 public class HandPlayerBehaviour : MonoBehaviour
 {
 
+    public BatteryCard FieldCardPrefab;
+
     private PlayerController player;
     public Transform positionToShowPlayer;
 
@@ -28,7 +30,14 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            GameObject tempCardField = Instantiate(FieldCardPrefab.gameObject) as GameObject;
+            tempCardField.transform.parent = GameObject.Find("FieldBatterySlot").transform;
+            tempCardField.transform.localPosition = new Vector3(0, 0, 0);
+            BatteryCard selectedCard = cards[0].GetComponent<BatteryCard>();
+            tempCardField.GetComponent<BatteryCard>();
+        }
     }
 
     public void SetPlayer(PlayerController playerToSet)
@@ -52,9 +61,9 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     }
 
-    private Vector3 CalcDistanceHandPosition(int indice, float limit)
+    private Vector3 CalcDistanceHandPosition(int indice, int limit)
     {
-        float distance = indice/limit;
+        float distance = indice/(float)(limit);
 
         return Vector3.Lerp(minPosition, maxPosition, distance);
 
