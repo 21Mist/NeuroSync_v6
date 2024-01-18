@@ -50,7 +50,7 @@ public class HeroCard : LifeBase
     public override void OnDie()
     {
         Debug.Log("Fim de jogo.");
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("GameOver");
     }
 
 }

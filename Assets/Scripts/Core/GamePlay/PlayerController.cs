@@ -49,9 +49,6 @@ private void BuyInitialCards()
     {
     }
 
-    public override void OnDie()
-    {
-    }
 
     void UpdateLifeText()
     {
