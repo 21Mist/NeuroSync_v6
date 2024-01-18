@@ -1347,6 +1347,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3448082387258439986}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3706191875114481508}
   m_SourcePrefab: {fileID: 100100000, guid: 6b23593de15b5ee40adb07a0fa1a8db3, type: 3}
 --- !u!4 &5976613285920777328 stripped
 Transform:
@@ -1382,6 +1385,27 @@ MonoBehaviour:
     2 (Guardar) Pode ser embaralhada no deck a qualquer momento, caso n\xE3o tenha
     atacado no turno atual.  | Skill 3 (~Bateria infinita~) N\xE3o gasta recurso
     para atacar."
-  weaponDamage: 03
+  weaponDamage: 3
   textWeaponEffect: {fileID: 6380274843133661689}
   textWeaponDamage: {fileID: 6206830548770667964}
+--- !u!65 &3706191875114481508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6465729471885377226}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.91, y: 0.04, z: 2.64}
+  m_Center: {x: -1.35, y: 0.6, z: 0.08}

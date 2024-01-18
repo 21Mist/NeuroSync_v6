@@ -17,7 +17,7 @@ public abstract class LifeBase : CardBase
         base.Start();
         currentLife = totalLife;
         textLife.text = currentLife.ToString();
-}
+    }
 
     protected void Update()
     {
@@ -31,6 +31,7 @@ public abstract class LifeBase : CardBase
         if (currentLife <= 0)
             OnDie();
     }
+
 
     public int GetCurrentLife()
     {

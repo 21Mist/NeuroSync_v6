@@ -30,14 +30,7 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            GameObject tempCardField = Instantiate(FieldCardPrefab.gameObject) as GameObject;
-            tempCardField.transform.parent = GameObject.Find("FieldBatterySlot").transform;
-            tempCardField.transform.localPosition = new Vector3(0, 0, 0);
-            BatteryCard selectedCard = cards[0].GetComponent<BatteryCard>();
-            tempCardField.GetComponent<BatteryCard>();
-        }
+
     }
 
     public void SetPlayer(PlayerController playerToSet)
@@ -48,17 +41,16 @@ public class HandPlayerBehaviour : MonoBehaviour
     public void ReorganizeCards()
     {
         Vector3 position = transform.position;
-        
-        for (int i = 1; i < cards.Count; i++)
+
+        for (int i = 0; i < cards.Count; i++)
         {
-            position = CalcDistanceHandPosition(i, cards.Count+1);
-            if (i - 1 < cards.Count)
+            position = CalcDistanceHandPosition(i, cards.Count);
+            if (i < cards.Count)
             {
-                cards[i-1].SetStartPosition(position);
+                cards[i].SetStartPosition(position);
             }
         }
-        positionNextCard = CalcDistanceHandPosition(cards.Count, cards.Count+1);
-
+        positionNextCard = CalcDistanceHandPosition(cards.Count, cards.Count);
     }
 
     private Vector3 CalcDistanceHandPosition(int indice, int limit)

@@ -6,6 +6,7 @@ using UnityEngine;
 
 public abstract class CardBase : MonoBehaviour
 {
+
     public string cardType;
     public string cardTitle;
     public string cardName;
@@ -38,11 +39,11 @@ public abstract class CardBase : MonoBehaviour
 
     protected void Update()
     {
+
         if (transform.position != positionToGo && onHand)
         {
             transform.position = Vector3.Lerp(transform.position, positionToGo, Time.deltaTime * dumbDragMovimentation);
         }
-
 
     }
 

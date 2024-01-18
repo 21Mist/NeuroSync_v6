@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ public class HeroCard : LifeBase
     public string heroSkill;
     public string heroImplantSlots1, heroImplantSlots2, heroImplantSlots3, heroImplantSlots4;
     public string heroBatterySlotsP, heroBatterySlotsM, heroBatterySlotsG;
+
+    public int batteryCharge = 0;
 
     public TextMeshPro textHeroSkill;
     public TextMeshPro textHeroImplantSlots1, textHeroImplantSlots2, textHeroImplantSlots3, textHeroImplantSlots4;
@@ -35,12 +38,19 @@ public class HeroCard : LifeBase
 
     }
 
+    public void IncreaseBatteryCharge()
+    {
+        batteryCharge += 1;
+    }
+
     public override void OnDamage()
     {
     }
 
     public override void OnDie()
     {
+        Debug.Log("Fim de jogo.");
+        SceneManager.LoadScene("Menu");
     }
 
 }
