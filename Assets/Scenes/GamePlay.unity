@@ -2744,6 +2744,7 @@ MonoBehaviour:
   player1CameraPosition: {fileID: 1748854594}
   player2CameraPosition: {fileID: 422728157}
   cardPlayedTurn: 0
+  camSpeed: 15
 --- !u!4 &1257678961
 Transform:
   m_ObjectHideFlags: 0

@@ -22,6 +22,9 @@ public class GameController : MonoBehaviour
 
     public bool cardPlayedTurn; // verifica se foi jogado carta no turno         
 
+    [SerializeField]
+    private float camSpeed = 1.0f; // Velocidade da animação da camera
+
     void Start()
     {
         instance = this;
@@ -33,6 +36,22 @@ public class GameController : MonoBehaviour
         
     }
 
+    public IEnumerator MoveCamera(Transform fromPosition, Transform toPosition) //animação da camera na troca de turno
+    {
+        float step = (camSpeed / (fromPosition.position - toPosition.position).magnitude) * Time.fixedDeltaTime;
+        float t = 0;
+        while (t <= 1.0f)
+        {
+            t += step; // vai de 0 a 1, incrementando 'step' a cada vez
+            mainCamera.transform.position = Vector3.Lerp(fromPosition.position, toPosition.position, t);
+            uiCamera.transform.position = Vector3.Lerp(fromPosition.position, toPosition.position, t);
+            mainCamera.transform.rotation = Quaternion.Lerp(fromPosition.rotation, toPosition.rotation, t);
+            uiCamera.transform.rotation = Quaternion.Lerp(fromPosition.rotation, toPosition.rotation, t);
+            yield return new WaitForFixedUpdate(); // espera pelo próximo FixedUpdate
+        }
+    }
+
+
     public void ExitGame()
     {
         SceneManager.LoadScene("Menu");
@@ -40,29 +59,20 @@ public class GameController : MonoBehaviour
 
     public void EndTurn()
     {
-        // Mude o turno para o outro jogador
+        //muda para player2
         if (currentPlayer == player1)
         {
             deck1.GetCard();
             currentPlayer = player2;
-            // Mova as câmeras para a posição do jogador 2
-            mainCamera.transform.position = player2CameraPosition.position;
-            uiCamera.transform.position = player2CameraPosition.position;
-            mainCamera.transform.rotation = player2CameraPosition.rotation;
-            uiCamera.transform.rotation = player2CameraPosition.rotation;
-
+            StartCoroutine(MoveCamera(player1CameraPosition, player2CameraPosition));
         }
+        //muda para player1
         else
         {
             deck2.GetCard();
             currentPlayer = player1;
-            // Mova as câmeras para a posição do jogador 1
-            mainCamera.transform.position = player1CameraPosition.position;
-            uiCamera.transform.position = player1CameraPosition.position;
-            mainCamera.transform.rotation = player1CameraPosition.rotation;
-            uiCamera.transform.rotation = player1CameraPosition.rotation;
+            StartCoroutine(MoveCamera(player2CameraPosition, player1CameraPosition));
         }
-
     }
 
     public PlayerController GetCurrentPlayer()
