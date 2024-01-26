@@ -9,6 +9,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3448082387258439986, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
+      propertyPath: weaponDamage
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3448082387258439986, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
       propertyPath: weaponEffect
       value: Pode Gastar 2 baterias para dobrar o dano
       objectReference: {fileID: 0}

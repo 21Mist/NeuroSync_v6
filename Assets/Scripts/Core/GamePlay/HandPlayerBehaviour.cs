@@ -63,16 +63,16 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     public void AddCards(CardBase card)
     {
-        if (cards.Count < maxCardInHand)
-        {
+        //if (cards.Count < maxCardInHand)
+        //{
             cards.Add(card);
             card.SetStartPosition(positionNextCard);
             ReorganizeCards();
-        }
-        else
-        {
-            Destroy(card.gameObject, 1);
-        }
+        //}
+        //else
+        //{
+        //    Destroy(card.gameObject, 1);
+        //}
     }
 
 

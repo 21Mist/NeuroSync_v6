@@ -63,13 +63,13 @@ private void BuyInitialCards()
         if (gameController.GetCurrentPlayer() == this)
         {
             // Calcule o dano
-            int damage = 5;  // Dano fixo
+            int damage = 4;  // Dano fixo
 
             // Se houver pelo menos duas cargas de bateria, dobre o dano
             if (batteryCharge >= 2)
             {
                 batteryCharge -= 2;
-                damage = 10;  // Dano dobrado
+                damage = 8;  // Dano dobrado
             }
 
             // Aplique o dano ao herói adversário

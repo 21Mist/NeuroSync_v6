@@ -50,7 +50,7 @@ public class DeckController : MonoBehaviour
                 CardBase tempCardComponent = tempCard.GetComponent<CardBase>();
                 tempCardComponent.SetOnHand();
                 tempCardComponent.SetStartPosition(positionHand);
-                tempCard = null;
+                //tempCard = null;
             }
         }
     }
