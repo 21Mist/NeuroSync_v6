@@ -65,6 +65,9 @@ public class DeckController : MonoBehaviour
             initListCards.RemoveAt(randCardIndex);
 
             tempCard = Instantiate(selectedCard.gameObject, transform.position, selectedCard.transform.rotation) as GameObject;
+            tempCard.transform.parent = player.hand.transform;
+            tempCard.transform.localPosition = new Vector3(0, 0, 0);
+            tempCard.transform.localRotation = player.hand.transform.localRotation;
             ResizeDeck();
             
             moveToHand = true;

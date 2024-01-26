@@ -25,7 +25,7 @@ public class BatteryCard : CardBase
             {
                 GameObject selectedObject = hit.transform.gameObject;
 
-                if (selectedObject == this.gameObject)
+                if (selectedObject == this.gameObject && GameController.instance.CanPlayCard())
                 {
                     // Verifique de quem é a vez no turno atual
                     PlayerController currentPlayer = GameController.instance.GetCurrentPlayer();
@@ -50,6 +50,7 @@ public class BatteryCard : CardBase
 
                     // Remova a carta da mão do jogador
                     Destroy(this.gameObject);
+                    GameController.instance.CardPlayed();
                 }
             }
         }

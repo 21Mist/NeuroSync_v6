@@ -18,7 +18,7 @@ public class PlayerController : HeroCard
         deck.SetupDeck(this);
         hand.SetPlayer(this);
 
-        for (int i = 0; i < 7; i++)
+        for (int i = 0; i < 5; i++)
         {
             float delay = i * .3f;
         Invoke("BuyInitialCards", delay);

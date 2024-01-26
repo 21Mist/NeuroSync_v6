@@ -20,7 +20,8 @@ public class GameController : MonoBehaviour
     public Transform player1CameraPosition;  // A posição da câmera para o jogador 1
     public Transform player2CameraPosition;  // A posição da câmera para o jogador 2
 
-    public bool cardPlayedTurn; // verifica se foi jogado carta no turno         
+    [SerializeField]
+    private bool cardPlayedThisTurn; // verifica se foi jogado carta no turno         
 
     [SerializeField]
     private float camSpeed = 1.0f; // Velocidade da animação da camera
@@ -29,6 +30,8 @@ public class GameController : MonoBehaviour
     {
         instance = this;
         currentPlayer = player1;
+
+        cardPlayedThisTurn = false;
     }
 
     void Update()
@@ -47,7 +50,7 @@ public class GameController : MonoBehaviour
             uiCamera.transform.position = Vector3.Lerp(fromPosition.position, toPosition.position, t);
             mainCamera.transform.rotation = Quaternion.Lerp(fromPosition.rotation, toPosition.rotation, t);
             uiCamera.transform.rotation = Quaternion.Lerp(fromPosition.rotation, toPosition.rotation, t);
-            yield return new WaitForFixedUpdate(); // espera pelo próximo FixedUpdate
+            yield return new WaitForFixedUpdate(); // espera pelo próximo FixedUpdate 
         }
     }
 
@@ -73,6 +76,25 @@ public class GameController : MonoBehaviour
             currentPlayer = player1;
             StartCoroutine(MoveCamera(player2CameraPosition, player1CameraPosition));
         }
+        cardPlayedThisTurn = false;
+    }
+
+    public bool CanPlayCard()  // Adicione este método
+    {
+        if (!cardPlayedThisTurn)
+        {
+            cardPlayedThisTurn = true;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    public void CardPlayed() 
+    {
+        cardPlayedThisTurn = true;  // Quando uma carta é jogada, defina a variável como true
     }
 
     public PlayerController GetCurrentPlayer()
