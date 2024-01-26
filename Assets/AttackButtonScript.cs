@@ -18,7 +18,9 @@ public class AttackButtonScript : MonoBehaviour
     void Update()
     {
         // Verifique se uma arma está em campo
-        GameObject weaponSlot = GameObject.Find("FieldWeaponSlot");
+        PlayerController currentPlayer = gameController.GetCurrentPlayer();  // Use o método GetCurrentPlayer() para buscar o player atual
+        string fieldSlotName = currentPlayer == gameController.player1 ? "FieldWeaponSlot" : "FieldWeaponSlot2";
+        GameObject weaponSlot = GameObject.Find(fieldSlotName);
         if (weaponSlot.transform.childCount > 0)
         {
             // Se uma arma estiver em campo, ative o botão de ataque
@@ -30,6 +32,7 @@ public class AttackButtonScript : MonoBehaviour
             attackButton.interactable = false;
         }
     }
+
 
     public void OnAttackButtonClicked()
     {

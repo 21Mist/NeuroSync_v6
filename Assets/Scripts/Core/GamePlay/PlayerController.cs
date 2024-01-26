@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerController : HeroCard
@@ -11,6 +12,7 @@ public class PlayerController : HeroCard
     public HandPlayerBehaviour hand;
 
     public TextMeshProUGUI lifeText;  // O texto da vida do jogador
+    public TextMeshPro batteryText; // O texto da bateria do jogador
 
     void Start()
     {
@@ -34,6 +36,7 @@ public class PlayerController : HeroCard
         base.Update();
 
         UpdateLifeText();
+        UpdateBatteryText();
 
 
         if (Input.GetKeyDown(KeyCode.P))
@@ -49,6 +52,10 @@ private void BuyInitialCards()
     {
     }
 
+    void UpdateBatteryText()
+    {
+        batteryText.text = "Cargas de Bateria: " + batteryCharge;
+    } 
 
     void UpdateLifeText()
     {
