@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -26,12 +27,15 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private float camSpeed = 1.0f; // Velocidade da animação da camera
 
+
     void Start()
     {
         instance = this;
         currentPlayer = player1;
 
         cardPlayedThisTurn = false;
+
+        attackButton.interactable = false;
     }
 
     void Update()
@@ -76,7 +80,10 @@ public class GameController : MonoBehaviour
             currentPlayer = player1;
             StartCoroutine(MoveCamera(player2CameraPosition, player1CameraPosition));
         }
+        
         cardPlayedThisTurn = false;
+
+        VerifyWeaponSlot();  // Chame StartTurn no final de cada turno
     }
 
     public bool CanPlayCard()  // Adicione este método
@@ -96,6 +103,15 @@ public class GameController : MonoBehaviour
     {
         cardPlayedThisTurn = true;  // Quando uma carta é jogada, defina a variável como true
     }
+
+    public void VerifyWeaponSlot()  // 
+    {
+        // Verifique se o jogador atual tem uma carta de arma no campo
+        string fieldSlotName = currentPlayer == player1 ? "FieldWeaponSlot" : "FieldWeaponSlot2";
+        GameObject weaponSlot = GameObject.Find(fieldSlotName);
+        attackButton.interactable = weaponSlot.transform.childCount > 0;
+    }
+
 
     public PlayerController GetCurrentPlayer()
     {

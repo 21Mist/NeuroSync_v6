@@ -60,6 +60,15 @@ public class WeaponCard : CardBase
                     tempCardField.transform.parent = weaponSlot.transform;
                     tempCardField.transform.localPosition = new Vector3(0, 0, 0);
 
+                    if (currentPlayer == GameController.instance.player1)
+                    {
+                        tempCardField.transform.localRotation = Quaternion.Euler(0, 0, 0);  // Rotação para o jogador 1
+                    }
+                    else
+                    {
+                        tempCardField.transform.localRotation = Quaternion.Euler(0, 180, 0);  // Rotação para o jogador 2
+                    }
+
                     // Ative o botão de ataque
                     GameObject attackButton = GameObject.Find("AttackButton");
                     if (attackButton != null)

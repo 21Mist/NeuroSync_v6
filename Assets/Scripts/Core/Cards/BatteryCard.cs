@@ -37,6 +37,15 @@ public class BatteryCard : CardBase
                     tempCardField.transform.parent = batterySlot.transform;
                     tempCardField.transform.localPosition = new Vector3(0, 0, 0);
 
+                    if (currentPlayer == GameController.instance.player1)
+                    {
+                        tempCardField.transform.localRotation = Quaternion.Euler(0, 0, 0);  // Rotação para o jogador 1
+                    }
+                    else
+                    {
+                        tempCardField.transform.localRotation = Quaternion.Euler(0, 180, 0);  // Rotação para o jogador 2
+                    }
+
                     // Aumente a carga da bateria do jogador correspondente
                     HeroCard hero = currentPlayer.GetComponentInChildren<HeroCard>();
                     if (hero != null)
