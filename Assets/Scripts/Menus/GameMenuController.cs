@@ -6,6 +6,7 @@ public class GameMenuController : MonoBehaviour
 {
 
     public GameObject gameMenu;
+    public GameObject controlMenu;
 
     void Start()
     {
@@ -31,5 +32,16 @@ public class GameMenuController : MonoBehaviour
     public void HideMenu()
     {
         gameMenu.SetActive(false);
+        controlMenu.SetActive(false);
     }
+
+    public void ActiveOptionsMenu(GameObject menu)
+    {
+        menu.SetActive(true);
+    }
+    public void HideOptionsMenu(GameObject menu)
+    {
+        menu.SetActive(false);
+    }
+
 }

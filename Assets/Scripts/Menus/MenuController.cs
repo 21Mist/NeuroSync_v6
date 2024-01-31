@@ -8,6 +8,7 @@ public class MenuController : MonoBehaviour
 
     public GameObject generalMenu;
     public GameObject optionsMenu;
+    public GameObject controlMenu;
 
     void Start()
     {
@@ -24,6 +25,8 @@ public class MenuController : MonoBehaviour
     {
         generalMenu.SetActive(false);
         optionsMenu.SetActive(false);
+        controlMenu.SetActive(false);
+
     }
 
     public void ActiveMenu(GameObject menu)
