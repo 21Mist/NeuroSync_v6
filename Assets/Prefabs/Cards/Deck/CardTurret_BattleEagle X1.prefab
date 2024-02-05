@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardTurret_BattleEagle X1
       objectReference: {fileID: 0}
+    - target: {fileID: 1156277870100519164, guid: 30c7df637da3b66459fc194974cfabe7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 1963635632212066886, guid: 30c7df637da3b66459fc194974cfabe7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.648317

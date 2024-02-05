@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardImplant_Synaptic Overdrive Implant
       objectReference: {fileID: 0}
+    - target: {fileID: 7742001280943168181, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8239331202787008518, guid: 9889a41a7faa0f04da7bb2c1eeeb9c80, type: 3}
       propertyPath: cardLore
       value: "Implante para aumento de capacidade de processamento e overclock, aumentando

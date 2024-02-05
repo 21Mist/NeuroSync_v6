@@ -153,6 +153,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardHero_Kieran Specter
       objectReference: {fileID: 0}
+    - target: {fileID: 7633206545556157116, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8184889217901770990, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -300,6 +304,7 @@ MonoBehaviour:
   heroBatterySlotsP: 2
   heroBatterySlotsM: 3
   heroBatterySlotsG: 2
+  batteryCharge: 0
   textHeroSkill: {fileID: 226762995092887875}
   textHeroImplantSlots1: {fileID: 583218448867029340}
   textHeroImplantSlots2: {fileID: 4345345564636375331}
@@ -308,8 +313,11 @@ MonoBehaviour:
   textHeroBatterySlotsP: {fileID: 3118704795828848380}
   textHeroBatterySlotsM: {fileID: 8421307284855303782}
   textHeroBatterySlotsG: {fileID: 5217202239056717396}
+  gameController: {fileID: 0}
   deck: {fileID: 0}
   hand: {fileID: 0}
+  lifeText: {fileID: 0}
+  batteryText: {fileID: 0}
 --- !u!114 &5217202239056717396 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7243888961203775942, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}

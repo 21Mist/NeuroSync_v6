@@ -26,6 +26,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardHack_FusionChock Surge
       objectReference: {fileID: 0}
+    - target: {fileID: 2401087451236794301, guid: 82446c1b69780724d9b6e0c5d87c6fea, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3033650421046289671, guid: 82446c1b69780724d9b6e0c5d87c6fea, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6413174

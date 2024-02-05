@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardConsumable_Reserva de Bateria
       objectReference: {fileID: 0}
+    - target: {fileID: 2656689542212337964, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 3428828920344976278, guid: 8f9a25bd9cee86b4ba066c90c61d9167, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.645317

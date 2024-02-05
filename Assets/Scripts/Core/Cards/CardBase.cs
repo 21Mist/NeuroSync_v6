@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -21,6 +22,7 @@ public abstract class CardBase : MonoBehaviour
 
     private bool onHand;
 
+    private GameController gameController;
 
     protected void Start()
     {
@@ -42,6 +44,43 @@ public abstract class CardBase : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, positionToGo, Time.deltaTime * dumbDragMovimentation);
         }
 
+        if (Input.GetMouseButtonDown(0)) //ação do click do botão esquerdo do mouse
+        {
+            
+            RightMouseClick();
+        }
+
+    }
+
+    private void RightMouseClick()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        if (Physics.Raycast(ray, out hit))
+        {
+            GameObject selectedObject = hit.transform.gameObject;
+            GameController.instance.OpenCardView();
+
+            if (selectedObject == this.gameObject)
+            {
+                // Verifica de quem é a vez no turno atual
+                PlayerController currentPlayer = GameController.instance.GetCurrentPlayer();
+
+                // Move a carta para o local correspondente
+                string viewSlotName = currentPlayer == GameController.instance.player1 ? "CardViewP1" : "CardViewP2";
+                GameObject cardViewer = GameObject.Find(viewSlotName);
+                GameObject tempCardViewer = Instantiate(this.gameObject) as GameObject;
+                tempCardViewer.transform.parent = cardViewer.transform;
+                tempCardViewer.transform.localPosition = new Vector3(0, 0, 0);
+
+                if (currentPlayer == GameController.instance.player1){
+                    tempCardViewer.transform.localRotation = Quaternion.Euler(0, 0, 0);  // Rotação para o jogador 1
+                }else{
+                    tempCardViewer.transform.localRotation = Quaternion.Euler(0, 180, 0);  // Rotação para o jogador 2
+                }
+            }
+        }
     }
 
     public void OnClick()
@@ -93,7 +132,7 @@ public abstract class CardBase : MonoBehaviour
     public void SetStartPosition(Vector3 position)
     {
         startPosition = position;
-        positionToGo = startPosition; 
+        positionToGo = startPosition;
     }
 
 

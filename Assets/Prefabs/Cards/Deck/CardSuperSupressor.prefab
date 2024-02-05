@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardSuperSupressor
       objectReference: {fileID: 0}
+    - target: {fileID: 5167379594262364294, guid: 56c57459898643844b9886df43a93ec2, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5547846435445938748, guid: 56c57459898643844b9886df43a93ec2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.650317

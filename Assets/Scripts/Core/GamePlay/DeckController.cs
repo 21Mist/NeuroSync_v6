@@ -20,8 +20,6 @@ public class DeckController : MonoBehaviour
     private Vector3 targetPosition;
     public float dumbGetCard;
 
-
-
     void Start()
     {
         initialSize = transform.localScale;

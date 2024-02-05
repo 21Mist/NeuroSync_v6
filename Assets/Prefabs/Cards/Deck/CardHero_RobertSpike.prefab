@@ -104,6 +104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardHero_RobertSpike
       objectReference: {fileID: 0}
+    - target: {fileID: 7633206545556157116, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8184889217901770990, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -167,6 +171,7 @@ MonoBehaviour:
   heroBatterySlotsP: 2
   heroBatterySlotsM: 3
   heroBatterySlotsG: 2
+  batteryCharge: 0
   textHeroSkill: {fileID: 5759662560053226182}
   textHeroImplantSlots1: {fileID: 4959575061667087065}
   textHeroImplantSlots2: {fileID: 8108227482875435686}
@@ -175,8 +180,11 @@ MonoBehaviour:
   textHeroBatterySlotsP: {fileID: 7461387438947988857}
   textHeroBatterySlotsM: {fileID: 4041293954091867619}
   textHeroBatterySlotsG: {fileID: 336864938305312209}
+  gameController: {fileID: 0}
   deck: {fileID: 0}
   hand: {fileID: 0}
+  lifeText: {fileID: 0}
+  batteryText: {fileID: 0}
 --- !u!114 &2905918838976093000 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5222024410350577503, guid: 2095cc4283378f74b83e4e1140af194a, type: 3}

@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,6 +25,10 @@ public class GameController : MonoBehaviour
 
     [SerializeField]
     private float camSpeed = 1.0f; // Velocidade da animação da camera
+
+    public GameObject backgroundCanva; 
+    public GameObject CardViewP1;
+    public GameObject CardViewP2;
 
     void Start()
     {
@@ -77,9 +82,10 @@ public class GameController : MonoBehaviour
         }
         
         cardPlayedThisTurn = false;
+        CloseCardView();
     }
 
-    public bool CanPlayCard()  // Adicione este método
+    public bool CanPlayCard() 
     {
         if (!cardPlayedThisTurn)
         {
@@ -94,14 +100,35 @@ public class GameController : MonoBehaviour
 
     public void CardPlayed() 
     {
-        cardPlayedThisTurn = true;  // Quando uma carta é jogada, defina a variável como true
+        cardPlayedThisTurn = true;  // Quando uma carta é jogada, variável fica true
     }
 
 
     public PlayerController GetCurrentPlayer()
     {
-        // Retorne o jogador atual
+        // Retorna quem é o jogador atual
         return currentPlayer;
     }
+
+    public void OpenCardView() //abre a interface quando clica com o mouse esquerdo
+    {
+        backgroundCanva.SetActive(true);
+    }
+
+    public void CloseCardView() //fecha a interface quando clica com o mouse esquerdo
+    {
+        backgroundCanva.SetActive(false);
+
+        //apaga as cartas grandes que estão abertas
+        foreach (Transform child in CardViewP1.transform)
+        {
+            Destroy(child.gameObject);
+        }
+        foreach (Transform child in CardViewP2.transform)
+        {
+            Destroy(child.gameObject);
+        }
+    }
+
 
 }

@@ -18,7 +18,7 @@ public class AttackButtonScript : MonoBehaviour
     void Update()
     {
         // Verifique se uma arma está em campo
-        PlayerController currentPlayer = gameController.GetCurrentPlayer();  // Use o método GetCurrentPlayer() para buscar o player atual
+        PlayerController currentPlayer = gameController.GetCurrentPlayer();  //método GetCurrentPlayer() para buscar o player atual
         string fieldSlotName = currentPlayer == gameController.player1 ? "FieldWeaponSlot" : "FieldWeaponSlot2";
         GameObject weaponSlot = GameObject.Find(fieldSlotName);
         if (weaponSlot.transform.childCount > 0)

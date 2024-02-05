@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4761668701481908147
+--- !u!1001 &2058722145945390173
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: cardName
       value: Bateria M
       objectReference: {fileID: 0}
+    - target: {fileID: 4782074283605960592, guid: 5a3f3805b5d377948b06276291709010, type: 3}
+      propertyPath: largeCardPrefab
+      value: 
+      objectReference: {fileID: 5802323469520958971}
     - target: {fileID: 5142022510716068636, guid: 5a3f3805b5d377948b06276291709010, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.652317
@@ -56,8 +60,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardBatteryM
       objectReference: {fileID: 0}
+    - target: {fileID: 5483117798496106918, guid: 5a3f3805b5d377948b06276291709010, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a3f3805b5d377948b06276291709010, type: 3}
+--- !u!1 &5802323469520958971 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5483117798496106918, guid: 5a3f3805b5d377948b06276291709010, type: 3}
+  m_PrefabInstance: {fileID: 2058722145945390173}
+  m_PrefabAsset: {fileID: 0}

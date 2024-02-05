@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardOS_MindForgeOS
       objectReference: {fileID: 0}
+    - target: {fileID: 1762823509186012664, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6586128174534919387, guid: 7e39ad1619287ba4d9821d6a823083bd, type: 3}
       propertyPath: cardLore
       value: Sistema Operacional de Combate feito para combatentes de guerra da TT

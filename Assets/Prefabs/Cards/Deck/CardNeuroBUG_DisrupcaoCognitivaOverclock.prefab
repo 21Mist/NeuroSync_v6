@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardNeuroBUG_DisrupcaoCognitivaOverclock
       objectReference: {fileID: 0}
+    - target: {fileID: 278005125290149909, guid: d6b1f338b6c01b242bdfeaba5e9c49ae, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 617130162031956655, guid: d6b1f338b6c01b242bdfeaba5e9c49ae, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.641317

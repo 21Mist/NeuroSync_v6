@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6465729471885377226, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
       propertyPath: m_Name
-      value: CardWeapon_LaserViper
+      value: CardWeapon_LaserViper _REAL
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465729471885377226, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

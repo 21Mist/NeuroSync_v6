@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3448082387258439986, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
       propertyPath: weaponDamage
-      value: 04
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3448082387258439986, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
       propertyPath: weaponEffect
@@ -69,6 +69,10 @@ PrefabInstance:
     - target: {fileID: 6465729471885377226, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
       propertyPath: m_Name
       value: CardWeapon_SynthFire XR-21
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465729471885377226, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
