@@ -36,6 +36,8 @@ public class GameController : MonoBehaviour
         currentPlayer = player1;
 
         cardPlayedThisTurn = false;
+
+        CloseCardView();
     }
 
     void Update()

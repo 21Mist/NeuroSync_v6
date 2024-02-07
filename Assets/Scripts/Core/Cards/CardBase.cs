@@ -46,7 +46,6 @@ public abstract class CardBase : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0)) //ação do click do botão esquerdo do mouse
         {
-            
             RightMouseClick();
         }
 
@@ -73,7 +72,6 @@ public abstract class CardBase : MonoBehaviour
                 GameObject tempCardViewer = Instantiate(this.gameObject) as GameObject;
                 tempCardViewer.transform.parent = cardViewer.transform;
                 tempCardViewer.transform.localPosition = new Vector3(0, 0, 0);
-
                 if (currentPlayer == GameController.instance.player1){
                     tempCardViewer.transform.localRotation = Quaternion.Euler(0, 0, 0);  // Rotação para o jogador 1
                 }else{
@@ -82,7 +80,6 @@ public abstract class CardBase : MonoBehaviour
             }
         }
     }
-
     public void OnClick()
     {
 
