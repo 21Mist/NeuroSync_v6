@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private float camSpeed = 1.0f; // Velocidade da animação da camera
 
+    public GameObject uiCardView;
     public GameObject backgroundCanva; 
     public GameObject CardViewP1;
     public GameObject CardViewP2;
@@ -115,11 +116,13 @@ public class GameController : MonoBehaviour
     public void OpenCardView() //abre a interface quando clica com o mouse esquerdo
     {
         backgroundCanva.SetActive(true);
+        uiCardView.SetActive(true);
     }
 
     public void CloseCardView() //fecha a interface quando clica com o mouse esquerdo
     {
         backgroundCanva.SetActive(false);
+        uiCardView.SetActive(false);
 
         //apaga as cartas grandes que estão abertas
         foreach (Transform child in CardViewP1.transform)
