@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +8,10 @@ public class AttackButtonScript : MonoBehaviour
     public PlayerController player;  // O jogador
 
     public GameController gameController;  // O gerenciador do jogo
+
+    // Box mostrador de dano
+    private GameObject DamageBox;
+    private TextMeshProUGUI DamageTxt;
 
 
     void Start()
@@ -44,6 +49,8 @@ public class AttackButtonScript : MonoBehaviour
         HeroCard opponentHero = opponentPlayer.GetComponentInChildren<HeroCard>();
         if (opponentHero != null)
         {
+            SoundEffect.Instance.PlaySoundButtonAttack();
+
             currentPlayer.Attack(opponentHero);
         }
     }

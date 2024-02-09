@@ -1,5 +1,5 @@
 using System.Collections;
-using Unity.VisualScripting;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
     public PlayerController player2;
 
     private PlayerController currentPlayer;  // O jogador atual
-
+    public TextMeshProUGUI txtCurrentPlayer;
 
     public Camera mainCamera;  // A câmera principal
     public Camera uiCamera;  // A câmera UI
@@ -26,6 +26,7 @@ public class GameController : MonoBehaviour
     [SerializeField]
     private float camSpeed = 1.0f; // Velocidade da animação da camera
 
+    // UI objs
     public GameObject uiCardView;
     public GameObject backgroundCanva; 
     public GameObject CardViewP1;
@@ -39,6 +40,10 @@ public class GameController : MonoBehaviour
         cardPlayedThisTurn = false;
 
         CloseCardView();
+
+        txtCurrentPlayer.text = "Turno do Jogador 1";
+
+        DontDestroyOnLoad(gameObject);
     }
 
     void Update()
@@ -75,6 +80,7 @@ public class GameController : MonoBehaviour
             deck1.GetCard();
             currentPlayer = player2;
             StartCoroutine(MoveCamera(player1CameraPosition, player2CameraPosition));
+            txtCurrentPlayer.text = "Turno do Jogador 2";
         }
         //muda para player1
         else
@@ -82,6 +88,7 @@ public class GameController : MonoBehaviour
             deck2.GetCard();
             currentPlayer = player1;
             StartCoroutine(MoveCamera(player2CameraPosition, player1CameraPosition));
+            txtCurrentPlayer.text = "Turno do Jogador 1";
         }
         
         cardPlayedThisTurn = false;

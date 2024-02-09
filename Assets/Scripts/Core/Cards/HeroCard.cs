@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class HeroCard : LifeBase
 {
-
     public string heroSkill;
     public string heroImplantSlots1, heroImplantSlots2, heroImplantSlots3, heroImplantSlots4;
     public string heroBatterySlotsP, heroBatterySlotsM, heroBatterySlotsG;
@@ -38,6 +37,7 @@ public class HeroCard : LifeBase
 
     public void IncreaseBatteryCharge()
     {
+        SoundEffect.Instance.PlaySoundBatteryCharge();
         batteryCharge += 1;
     }
 
@@ -47,6 +47,14 @@ public class HeroCard : LifeBase
 
     public override void OnDie()
     {
+        PlayerController currentPlayer = GameController.instance.GetCurrentPlayer();
+        string winner = "Player 2";
+        if (currentPlayer == GameController.instance.player1)
+        {
+            winner = "Player 1";
+        }
+        PlayerPrefs.SetString("Winner", winner);
+
         Debug.Log("Fim de jogo.");
         SceneManager.LoadScene("GameOver");
     }

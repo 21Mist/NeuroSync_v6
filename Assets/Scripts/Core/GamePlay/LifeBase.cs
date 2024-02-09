@@ -1,8 +1,8 @@
 using TMPro;
+using UnityEngine;
 
 public abstract class LifeBase : CardBase
 {
-
     public int totalLife;
     private int currentLife;
 
@@ -23,9 +23,12 @@ public abstract class LifeBase : CardBase
     public void ApplyDamage(int damage)
     {
         currentLife -= damage;
+        
 
         if (currentLife <= 0)
+        {
             OnDie();
+        }
     }
 
 

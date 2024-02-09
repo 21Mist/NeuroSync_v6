@@ -48,6 +48,9 @@ public class WeaponCard : CardBase
 
                 if (selectedObject == this.gameObject && GameController.instance.CanPlayCard())
                 {
+                    //toca o som da arma
+                    SoundEffect.Instance.PlaySoundWeapon();
+
                     // Verifique de quem é a vez no turno atual
                     PlayerController currentPlayer = GameController.instance.GetCurrentPlayer();
 

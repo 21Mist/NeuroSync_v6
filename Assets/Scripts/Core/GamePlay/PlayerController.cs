@@ -10,6 +10,13 @@ public class PlayerController : HeroCard
     public TextMeshProUGUI lifeText;  // O texto da vida do jogador
     public TextMeshPro batteryText; // O texto da bateria do jogador
 
+    // Box mostrador de dano
+    public GameObject boxDamage;
+    [SerializeField]
+    private TextMeshProUGUI txtDamage;
+    private int damageDone;
+
+
     void Start()
     {
         base.Start();
@@ -21,9 +28,9 @@ public class PlayerController : HeroCard
             float delay = i * .3f;
         Invoke("BuyInitialCards", delay);
         }
-        
-        
-        
+
+        boxDamage.SetActive(false);
+
     }
 
 
@@ -39,7 +46,7 @@ public class PlayerController : HeroCard
             deck.GetCard();
     }
 
-private void BuyInitialCards()
+    private void BuyInitialCards()
     {
         deck.GetCard();
     }
@@ -61,18 +68,21 @@ private void BuyInitialCards()
         }
     }
 
+
     public void Attack(HeroCard opponentHero)
     {
         if (gameController.GetCurrentPlayer() == this)
         {
             // Calcule o dano
             int damage = 4;  // Dano fixo
+            damageDone = damage;
 
             // Se houver pelo menos duas cargas de bateria, dobre o dano
             if (batteryCharge >= 2)
             {
                 batteryCharge -= 2;
                 damage = 8;  // Dano dobrado
+                damageDone = damage;
             }
 
             // Aplique o dano ao herói adversário
@@ -80,12 +90,23 @@ private void BuyInitialCards()
             {
                 opponentHero.ApplyDamage(damage);
             }
-
+            BoxDamageDone();
             gameController.EndTurn();
         }
     }
 
+    public void BoxDamageDone()
+    {
 
+        txtDamage.text = (damageDone + " de dano causado");
+        boxDamage.SetActive(true);
 
+        Invoke("HideBoxDamage", 2f);
+    }
+
+    public void HideBoxDamage()
+    {
+        boxDamage.SetActive(false);
+    }
 
 }

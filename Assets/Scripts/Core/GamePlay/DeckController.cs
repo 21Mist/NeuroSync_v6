@@ -9,7 +9,6 @@ public class DeckController : MonoBehaviour
     public List<CardBase> initListCards;
     private PlayerController player;
 
-
     //Animations Variables
     private GameObject tempCard;
     public float timeToShowPlayer;
@@ -56,7 +55,9 @@ public class DeckController : MonoBehaviour
     {
 
         if (initListCards.Count > 0)
-        { 
+        {
+            SoundEffect.Instance.PlaySoundGetCard();
+
             int randCardIndex = Random.Range(0, initListCards.Count);
             CardBase selectedCard = initListCards [randCardIndex];
             initListCards.RemoveAt(randCardIndex);

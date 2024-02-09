@@ -20,6 +20,8 @@ public class HandPlayerBehaviour : MonoBehaviour
     [System.NonSerialized]
     public Vector3 positionNextCard;
 
+
+
     void Start()
     {
         minPosition = transform.position - rangeCardPosition;
@@ -62,16 +64,9 @@ public class HandPlayerBehaviour : MonoBehaviour
 
     public void AddCards(CardBase card)
     {
-        //if (cards.Count < maxCardInHand)
-        //{
             cards.Add(card);
             card.SetStartPosition(positionNextCard);
             ReorganizeCards();
-        //}
-        //else
-        //{
-        //    Destroy(card.gameObject, 1);
-        //}
     }
 
 
