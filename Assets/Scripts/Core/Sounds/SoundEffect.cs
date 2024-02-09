@@ -53,6 +53,6 @@ public class SoundEffect : MonoBehaviour
 
     private void PlaySound(AudioClip soundClip)
     {
-        AudioSource.PlayClipAtPoint(soundClip, transform.position, 5);
+        AudioSource.PlayClipAtPoint(soundClip, transform.position, 1f);
     }
 }
