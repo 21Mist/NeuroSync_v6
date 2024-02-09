@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3448082387258439986, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
       propertyPath: weaponEffect
-      value: Pode Gastar 2 baterias para dobrar o dano
+      value: Gasta 2 baterias para dobrar o dano
       objectReference: {fileID: 0}
     - target: {fileID: 5976613285920777328, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65,7 +65,10 @@ PrefabInstance:
       value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2787549946453581485, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
+    - {fileID: 7454839701895576405, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
+    - {fileID: 7167889808650194192, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fcb93dd5b5a9b74ab090c19e9291a52, type: 3}
