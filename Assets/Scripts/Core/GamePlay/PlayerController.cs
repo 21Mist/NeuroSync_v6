@@ -81,7 +81,7 @@ public class PlayerController : HeroCard
             if (batteryCharge >= 2)
             {
                 batteryCharge -= 2;
-                damage = 8;  // Dano dobrado
+                damage = 15;  // Dano carregado
                 damageDone = damage;
             }
 

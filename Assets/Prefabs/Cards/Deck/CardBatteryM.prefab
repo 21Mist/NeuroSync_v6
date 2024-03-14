@@ -9,6 +9,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4782074283605960592, guid: 5a3f3805b5d377948b06276291709010, type: 3}
+      propertyPath: cardLore
+      value: "As Baterias MegaVolt da Horizon Nexus s\xE3o potente e segura, focadas
+        em seguran\xE7a cibern\xE9tica com alta capacidade de processamento e prote\xE7\xE3o
+        contra invas\xF5es."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782074283605960592, guid: 5a3f3805b5d377948b06276291709010, type: 3}
       propertyPath: cardName
       value: Bateria M
       objectReference: {fileID: 0}
